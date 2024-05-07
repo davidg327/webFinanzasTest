@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.create-user-btn {
+  align-self: flex-start;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.create-user-btn:hover {
+  background-color: darkblue;
+}
+
+.edit-user-btn {
+  align-self: flex-start;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.edit-user-btn:hover {
+  background-color: #008b46;
+}
