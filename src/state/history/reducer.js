@@ -16,6 +16,7 @@ export const historiesSlice = createSlice({
     reducers: {
         getHistory(state, action) {
             state.getHistoriesRequesting = true;
+            state.histories = [];
         },
         getHistorySuccess(state, action) {
             state.getHistoriesRequesting = false;
